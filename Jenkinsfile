@@ -1,4 +1,4 @@
-node {
+node(label:'slave1') {
    def mvnHome = tool 'maven'
 
    stage('Checkout Code') { 
